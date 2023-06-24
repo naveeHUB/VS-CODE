@@ -1,0 +1,12 @@
+body{
+    background:linear-gradient(to left,#7800f9,#f611d898)
+}
+img{
+    height: 18rem !important;
+}
+.outLineBox{
+background-color:white;
+text-align: center;
+display:grid;
+grid-template-columns: repeat(5,2fr);
+}
