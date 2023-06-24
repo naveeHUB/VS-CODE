@@ -1,12 +1,11 @@
 Difference between a Window Object and Document Object
 
-
 Window Object 
  
-The window object is one of the Browser Object model object. Every browser's single tab is called a window. it is used for preloaded common details or behaviour-accessing purposes and it works within the tab/window
-
+The window object is one of the Browser Object model object. Every browser's single tab is called a window
+it is used for preloaded common details or behaviour-accessing purposes and it works within the tab/window
 
 Document Object
 
-
-The Document Object is one of the window objects.it is placed on the inside of the window object. it's can access within the document/website area only. As same this object also contains preloaded data.
+The Document Object is one of the window objects.it is placed on the inside of the window object
+it's can access within the document/website area only. As same this object also contains preloaded data.
