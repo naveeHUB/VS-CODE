@@ -1,0 +1,120 @@
+1) JSON itration in simple for loop
+
+let json = [{
+    "id" : "1", 
+    "msg"   : "hi",
+    "date" : "2023-05-22 ",
+    "mail": "hello1@email.in"
+},
+{
+    "id" : "2", 
+    "msg"   : "there",
+    "date" : "2023-05-22 ",
+    "mail": "hello2@email.in"
+}];
+for(let i = 0; i < json.length; i++) {
+    let obj = json[i];
+
+    console.log(obj.id,obj.mail);
+}
+
+
+2) JSON itrate with (For...in) loop
+
+const json1=`{ "name":"person1","age":25,"Qualification":"B.Sc","Address":"xxx","skill":"codeing" }`
+const newjs=JSON.parse(json1)
+console.log(newjs);
+for(let key in newjs){
+console.log(key + " : " +newjs[key])
+}
+
+3)JSON itrate with  (for....of) loop
+let json = [{
+    "id" : "1", 
+    "msg"   : "hi",
+    "date" : "2023-05-22 ",
+    "mail": "hello1@email.in"
+},
+{
+    "id" : "2", 
+    "msg"   : "there",
+    "date" : "2023-05-22 ",
+    "mail": "hello2@email.in"
+}];
+for(let i of json) {
+    console.log( json);
+}
+
+4)Json itrate with forEach loop
+
+let json = [{
+    "id" : "1", 
+    "msg"   : "hi",
+    "date" : "2023-05-22 ",
+    "mail": "hello1@email.in"
+},
+{
+    "id" : "2", 
+    "msg"   : "there",
+    "date" : "2023-05-22 ",
+    "mail": "hello2@email.in"
+}];
+json.forEach((e,i) => {
+let a = json[i];
+console.log(a.mail)
+});
+
+
+2)Create Resume in JSON Type
+
+{
+  "name": "Navaneeth",
+  "email": "naveekrish309@gmail.com",
+  "phone": "9025126472",
+  "address": " pollachi,CBE,Tamilnadu,642120",
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "Bharathiyar University",
+      "location": "CBE, TN",
+      "completion_date": "May 2020"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "ZEN cor technosolution",
+      "location": "CBE, tamilnadu",
+      "start_date": "June 2020",
+      "end_date": "covid",
+      "responsibilities": [
+        "Optimize applications for maximum speed and scalability.",
+        "Identify and resolve software defects and performance issues."
+      ]
+    },
+    {
+      "title": "Web Developer Intern",
+      "company": "DEF Company",
+      "location": "City, State",
+      "start_date": "May 2019",
+      "end_date": "August 2019",
+      "responsibilities": [
+        "Collaborated with senior developers to implement new website features."
+      ]
+    }
+  ],
+
+3)Window,Screen and Document explination
+
+Window:
+
+The "window" object represents an open window or tab in a web browser. It provides a global scope for JavaScript code running within that window and allows interaction with the browser's features. The "window" object provides various properties and methods for manipulating the window, such as resizing, moving, opening new windows, and navigating to different URLs. It also includes properties for managing cookies, accessing the browser's history, and handling events.
+
+Screen:
+
+The "screen" object represents the user's screen or monitor. It provides information about the user's screen dimensions, color depth, pixel density, and other related properties. The "screen" object is useful for creating responsive designs or determining the available screen space for positioning elements. Some of the commonly used properties of the "screen" object include "width," "height," "availWidth," "availHeight," and "colorDepth."
+
+Document:
+
+The "document" object represents the web page or document displayed in the browser window. It provides access to the HTML elements and their contents within the document. The "document" object allows JavaScript code to manipulate the structure, style, and content of the web page dynamically. It provides methods for selecting elements using CSS selectors, modifying element attributes and properties, manipulating the DOM (Document Object Model), and handling events.
+ 
